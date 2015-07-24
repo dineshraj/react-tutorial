@@ -1,0 +1,48 @@
+html, body {
+    font-family: arial;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+.comment-module {
+
+}
+
+.comment-form {
+
+}
+
+.comment-list, .comment-form {
+    padding-left: 16px;
+}
+
+.comment {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px 6px;
+    background-color: #f1f1f1;
+    width: 25%;
+}
+
+
+p {
+    margin: 4px 0;
+}
+
+.author {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 25%;
+    display: block;
+    margin-bottom: 4px;
+    padding: 4px;
+    border: 1px solid #dcdcdc;
+}
+
+input {
+    margin-bottom: 12px;
+}
