@@ -1,23 +1,11 @@
 html, body {
     font-family: arial;
+    padding-left: 8px;
 }
 
 h1 {
-    font-size: 18px;
+    font-size: 22px;
 }
-
-.comment-module {
-
-}
-
-.comment-form {
-
-}
-
-.comment-list, .comment-form {
-    padding-left: 16px;
-}
-
 .comment {
     margin-top: 8px;
     margin-bottom: 8px;
@@ -25,7 +13,6 @@ h1 {
     background-color: #f1f1f1;
     width: 25%;
 }
-
 
 p {
     margin: 4px 0;
@@ -35,14 +22,24 @@ p {
     font-weight: bold;
 }
 
+input, textarea, button {
+    font-size: 14px;
+}
+
 input, textarea {
     width: 25%;
     display: block;
     margin-bottom: 4px;
     padding: 4px;
-    border: 1px solid #dcdcdc;
+    border: 1px solid #7D7D7D;
 }
 
 input {
     margin-bottom: 12px;
+}
+
+button {
+    background-color: #9EE22D;
+    border: none;
+    padding: 4px 12px;
 }
